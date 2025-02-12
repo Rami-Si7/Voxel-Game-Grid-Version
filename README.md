@@ -1,4 +1,4 @@
-# Terrain Generation and OCTREE Blog:
+# Grid Terrain Generation and OCTREE Blog:
 ## Dates:
 - [20/11/2024](#20112024)
 - [21/11/2024](#21112024)

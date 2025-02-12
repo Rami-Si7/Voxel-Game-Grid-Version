@@ -1,4 +1,23 @@
-# Grid Terrain Generation and OCTREE Blog:
+# Grid Terrain Generation Blog:
+## Overview
+This project showcase my journey in developing Grid-based Voxel game.<br />
+In this documentary, you can learn along with me about the basics regaridng developing implement a Grid-based Voxel game.<br />
+I documentet the whole journey, including struggles that i faced, new things that I have learned and Future works.<br />
+After i finished on this version of the project, i have shifted my goal to build a more efficient Voxel game using Octrees. It is still a work in progress.<br /><br />
+But feel free to check my work here so you can also learn :)<br />
+<br />
+
+## Features
+
+Regarding developing Voxel game, there are multiple features we can design and implement. This project focuses on this Features:
+- World cosists of chunks, each chunk is a 3D grid.
+- Perlin Noise is used to classify Air and Solid voxels.
+- Efficient mesh generation, drawing only the visible faces including chunk boundaries.
+- Infinte Procedural Terrain Generation, loading and unloading chunks.
+- Breaking and Placing blocks.
+- Adding to each voxel an octree, when breaking a voxel it divides to octree, and the octant that is hit by the ray will turn to air and render the other octants, this process and continue infinitely.
+
+
 ## Dates:
 - [20/11/2024](#20112024)
 - [21/11/2024](#21112024)
